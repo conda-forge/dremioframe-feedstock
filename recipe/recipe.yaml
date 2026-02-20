@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: dremioframe
-  version: "0.25.1"
+  version: "0.25.2"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/dremioframe-${{ version }}.tar.gz
-  sha256: 30078c3814e45cfd6af57ed0f721b907418691062881287f7444fcf7d7bd0ad8
+  sha256: d136ce0b923ef69fa64d40d82a749805f26fe377c7cc6ec48543a390bc387ecb
 
 build:
   number: 0
